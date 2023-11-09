@@ -28,7 +28,7 @@ const SearchBar = (props) => {
             {shouldDisplayButton && <button onClick={handleClearClick}>clear</button>}
             
 
-            <div>
+            <div className="product-container">
                 {filterProducts.map((product) => {
                     return(
                         <div className="product" key={product.id}>

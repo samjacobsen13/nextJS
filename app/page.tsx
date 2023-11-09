@@ -27,8 +27,14 @@ export default function Page() {
             <CountButton incrementBy = {1} buttonColor = {'red'}/>
             <CountButton incrementBy = {2} buttonColor = {'yellow'}/>
             <div className="separator"></div>
+            <a href="https://github.com/samjacobsen13/nextJS" target="_blank" rel="noopener noreferrer">
+                GitHib Repository
+            </a>
+            <div className="separator"></div>
             {hasProducts ? <SearchBar products = {productsStates}/> : "Loading"}
             
+
+
         </div>
     )
     

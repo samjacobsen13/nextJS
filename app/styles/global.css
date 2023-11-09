@@ -1,19 +1,18 @@
 .product-container {
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }
 
 .product{
+    text-align: center;
     border: 1px solid black;
-    
     padding: 10px;
 }
 
 .product-image {
-    width: 150px;
-    height: 150px;
+    max-width: 100px;
+    height: auto;
 }
 
 .separator {
